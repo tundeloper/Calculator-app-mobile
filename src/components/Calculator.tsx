@@ -153,7 +153,7 @@ export default function Calculator() {
       );
 
       if (error) {
-        setDisplay("Error");
+        setDisplay("Can't divide by 0");
         setPreviousValue(null);
         setOperator(null);
         setWaitingForOperand(true);
